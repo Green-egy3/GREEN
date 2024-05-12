@@ -29,7 +29,6 @@
     height: 200px;
     max-width: 900px;
     display: flex;
-    position: relative;
     justify-content: space-between;
     align-content: center;
     margin: auto;
@@ -39,6 +38,7 @@
   display: flex;
   width: 250px;
   justify-content: center;
+  margin: auto;
   align-items: center;
   text-transform: capitalize;
   background-color: transparent;
