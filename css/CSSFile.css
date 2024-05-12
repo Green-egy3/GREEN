@@ -1,0 +1,80 @@
+:root {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
+}
+.logo-div {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 300px;
+  aspect-ratio: 1;
+}
+
+.slogan {
+  width: 300px;
+  margin-left: auto;
+  margin-top: -10px;
+  margin-right: auto;
+  color: #5d967c;
+}
+
+@media (min-width: 900px) {
+  .container {
+    height: 200px;
+    max-width: 900px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+  }
+}
+.comment {
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  background-color: transparent;
+  margin-top: 15px;
+
+  box-shadow: inset 0px 0px 0px 2px#5d967c;
+  color: #5d967c;
+  padding: 20px;
+  position: relative;
+  height: 100px;
+  transition: 0.4s 0.4s ease-in-out;
+  -webkit-transition: 0.4s 0.4s ease-in-out;
+  -moz-transition: 0.4s 0.4s ease-in-out;
+  -ms-transition: 0.4s 0.4s ease-in-out;
+  -o-transition: 0.4s 0.4s ease-in-out;
+}
+
+.comment::after {
+  content: "";
+  background-color: #5d967c;
+  position: absolute;
+  transition: all 0.4s 0.4s ease-in-out;
+  bottom: 0;
+  right: 0;
+  width: 3.5px;
+  height: 100%;
+  -webkit-transition: all 0.4s 0.4s ease-in-out;
+  -moz-transition: all 0.4s 0.4s ease-in-out;
+  -ms-transition: all 0.4s 0.4s ease-in-out;
+  -o-transition: all 0.4s 0.4s ease-in-out;
+}
+.comment:hover::after {
+  right: 100.5%;
+  background-color: #5d967c;
+}
+.comment:hover {
+  background-color: #5d967c;
+  color: white;
+}
