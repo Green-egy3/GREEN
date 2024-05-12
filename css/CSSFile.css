@@ -14,13 +14,13 @@
 .logo {
   width: 300px;
   aspect-ratio: 1;
+  margin-bottom: -20px;
 }
 
 .slogan {
   width: 300px;
-  margin-left: auto;
-  margin-top: -10px;
-  margin-right: auto;
+  margin: auto;
+  text-align: center;
   color: #5d967c;
 }
 
