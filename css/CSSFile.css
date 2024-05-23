@@ -24,10 +24,10 @@
   color: #5d967c;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .container {
     height: 200px;
-    max-width: 900px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -36,7 +36,7 @@
 }
 .comment {
   display: flex;
-  width: 150px;
+  width: 170px;
   justify-content: center;
   margin: auto;
   align-items: center;
